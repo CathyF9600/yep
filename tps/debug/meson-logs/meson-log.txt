@@ -1,0 +1,65 @@
+Build started at 2023-01-20T18:57:46.300980
+Main binary: /usr/bin/python3
+Build Options: -Dbuildtype=debug
+Python system: Linux
+The Meson build system
+Version: 0.61.2
+Source dir: /workspaces/ece353-labs/tps
+Build dir: /workspaces/ece353-labs/tps/debug
+Build type: native build
+Project name: tps
+Project version: undefined
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /workspaces/ece353-labs/tps/debug/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 11.3.0 "cc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0")
+C linker for the host machine: cc ld.bfd 2.38
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /workspaces/ece353-labs/tps/debug/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 11.3.0 "cc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0")
+C linker for the build machine: cc ld.bfd 2.38
+Build machine cpu family: aarch64
+Build machine cpu: aarch64
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Target machine cpu family: aarch64
+Target machine cpu: aarch64
+Adding test "tests/close_check.py"
+Adding test "tests/execve_check.py"
+Adding test "tests/ps_compare.py"
+Build targets in project: 1
+
+tps undefined
+
+  User defined options
+    buildtype: debug
+
+Found ninja-1.10.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /workspaces/ece353-labs/tps/debug/meson-private/tmpbcv1dawn
+Command line:  cc /workspaces/ece353-labs/tps/debug/meson-private/tmpbcv1dawn/testfile.c -o /workspaces/ece353-labs/tps/debug/meson-private/tmpbcv1dawn/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/aarch64-linux-gnu/11/
+programs: =/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/11/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/11/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

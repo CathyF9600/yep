@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/workspaces/ece353-labs/tps/debug",
+    "command": "cc -Itps.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c17 -g -MD -MQ tps.p/src_main.c.o -MF tps.p/src_main.c.o.d -o tps.p/src_main.c.o -c ../src/main.c",
+    "file": "../src/main.c",
+    "output": "tps.p/src_main.c.o"
+  }
+]
