@@ -1,0 +1,14 @@
+ 0x000000000000000e (SONAME)             Library soname: [libssp.so]
+add_curchild T
+close_files T
+get_pid T
+handle_signal T
+longest_pname B 4
+number_of_children B 8
+register_signal T
+ssp_create T
+ssp_get_status T
+ssp_init T
+ssp_print T
+ssp_send_signal T
+ssp_wait T

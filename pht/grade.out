@@ -1,0 +1,13 @@
+utorid: fengyuc4
+grade: 99
+code/v1-sanity-check: 10
+code/v1-performance: 8
+code/v2-sanity-check: 10
+code/v2-performance: 8
+code/valgrind: 4
+doc/v1-strategy: 15
+doc/v1-performance: 5
+doc/v1-performance-explaination: 10
+doc/v2-strategy: 15
+doc/v2-performance: 5
+doc/v2-performance-explaination: 9
